@@ -14,6 +14,8 @@ class Normalizer{
         this.audio = audio;
         this.audio.play();
 
+        this.audio.crossOrigin = "anonymous";
+
         this.audioCtx = new (window.AudioContext || window.webkitAudioContext)();
 
         this.audioSource = this.audioCtx.createMediaElementSource(this.audio);
