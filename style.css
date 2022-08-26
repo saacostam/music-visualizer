@@ -1,0 +1,36 @@
+.ranger{
+    display: flex;
+}
+.ranger label{
+    flex: auto;
+}
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+#canvas {
+    background-color: #2b2b2b;
+    image-rendering: pixelated;
+
+    width: 100%;
+    max-width: 50rem;
+    margin: 2rem;
+}
+h3{
+    text-align: center; 
+}
+.playback-control{
+    cursor: pointer;
+    padding: 0.2rem;
+}
+.playback-control:hover{
+    text-decoration: none;
+}
+body{
+    background-color: var(--light);
+}
+
+#byMe{
+    font-size: x-small;
+}
