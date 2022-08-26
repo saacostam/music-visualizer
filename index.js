@@ -13,7 +13,7 @@ ctx.fillText("<< Press 'start' to begin >>", 60, 160);
 function init(){
     const audio = new Audio();
 
-    audio.src = "music/BLR · Rave & Crave - Taj (Extended Mix).mp3";
+    audio.src = "https://raw.githubusercontent.com/saacostam/music-visualizer/master/music/BLR · Rave & Crave - Taj (Extended Mix).mp3";
     audio.currentTime = 0;
 
     const visual = new Visual(audio, canvas);
@@ -96,15 +96,15 @@ function createSettings(visual){
                 audioListener: null,
                 playing: false,
                 songs:[
-                    {name: 'Armin Van Buuren (Lost Frequencies 2.0 Remix) - In And Out Of Love', src: 'music/Armin Van Buuren (Lost Frequencies 2.0 Remix) - In And Out Of Love.mp3'},
-                    {name: 'Ben Bohmer & Malou - Lost In Mind (Volen Sentir Vision)', src: 'music/Ben Bohmer & Malou - Lost In Mind (Volen Sentir Vision).mp3'},
-                    {name: 'Bleu Clair & OOTORO - Beat Like This', src: 'music/Bleu Clair & OOTORO - Beat Like This.mp3'},
-                    {name: 'BLR · Rave & Crave - Taj (Extended Mix)', src: 'music/BLR · Rave & Crave - Taj (Extended Mix).mp3'},
-                    {name: 'Deadmau5 - Strobe (Original Extended Mix)', src: 'music/Deadmau5 - Strobe (Original Extended Mix).mp3'},
-                    {name: 'Marten Hørger x Otosan - Feel So Right (Extended Mix)', src: 'music/Marten Hørger x Otosan - Feel So Right (Extended Mix).mp3'},
-                    {name: 'Roberto Surace - Joys (Purple Disco Machine Extended Remix)', src: 'music/Roberto Surace - Joys (Purple Disco Machine Extended Remix).mp3'},
-                    {name: '911 - Sech Ft DJ SERGIO RIVEROS', src: 'music/911 - Sech Ft DJ SERGIO RIVEROS.mp3'},
-                    {name: 'Noir Désir - Le vent nous portera ( Lost Frequencies Edit )', src: 'music/Noir Désir - Le vent nous portera ( Lost Frequencies Edit ).mp3'}
+                    {name: 'Armin Van Buuren (Lost Frequencies 2.0 Remix) - In And Out Of Love', src: 'https://raw.githubusercontent.com/saacostam/music-visualizer/master/music/Armin Van Buuren (Lost Frequencies 2.0 Remix) - In And Out Of Love.mp3'},
+                    {name: 'Ben Bohmer & Malou - Lost In Mind (Volen Sentir Vision)', src: 'https://raw.githubusercontent.com/saacostam/music-visualizer/master/music/Ben Bohmer & Malou - Lost In Mind (Volen Sentir Vision).mp3'},
+                    {name: 'Bleu Clair & OOTORO - Beat Like This', src: 'https://raw.githubusercontent.com/saacostam/music-visualizer/master/music/Bleu Clair & OOTORO - Beat Like This.mp3'},
+                    {name: 'BLR · Rave & Crave - Taj (Extended Mix)', src: 'https://raw.githubusercontent.com/saacostam/music-visualizer/master/music/BLR · Rave & Crave - Taj (Extended Mix).mp3'},
+                    {name: 'Deadmau5 - Strobe (Original Extended Mix)', src: 'https://raw.githubusercontent.com/saacostam/music-visualizer/master/music/Deadmau5 - Strobe (Original Extended Mix).mp3'},
+                    {name: 'Marten Hørger x Otosan - Feel So Right (Extended Mix)', src: 'https://raw.githubusercontent.com/saacostam/music-visualizer/master/music/Marten Hørger x Otosan - Feel So Right (Extended Mix).mp3'},
+                    {name: 'Roberto Surace - Joys (Purple Disco Machine Extended Remix)', src: 'https://raw.githubusercontent.com/saacostam/music-visualizer/master/music/Roberto Surace - Joys (Purple Disco Machine Extended Remix).mp3'},
+                    {name: '911 - Sech Ft DJ SERGIO RIVEROS', src: 'https://raw.githubusercontent.com/saacostam/music-visualizer/master/music/911 - Sech Ft DJ SERGIO RIVEROS.mp3'},
+                    {name: 'Noir Désir - Le vent nous portera ( Lost Frequencies Edit )', src: 'https://raw.githubusercontent.com/saacostam/music-visualizer/master/music/Noir Désir - Le vent nous portera ( Lost Frequencies Edit ).mp3'}
                 ]
             }
         },
