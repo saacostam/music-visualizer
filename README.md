@@ -1,7 +1,16 @@
-# Music Visualizer 🎵
+# 🎵 Music Visualizer
+A music visualization website that leverages the AnalyserNode from the JavaScript Audio API to create a 3-band frequency-based visualization. This interactive tool allows users to:
 
-Music Visualizer is a website that uses the AnalyserNode from JavaScript Audio API to create a 3-band frequency-based visualization. 
-It enables the user to set their own parameters and select from a range of preloaded songs. 
-It was built as a personal project to learn the Canvas API.
+- ✅ Choose from a range of preloaded songs 
+- ✅ Customize visualization parameters
+- ✅ Experience real-time audio-driven animations
 
-You can check the project <a href="https://saacostam.github.io/music-visualizer/" target="_blank">here</a>!
+## 🔧 Technologies Used
+- JavaScript (ES6)
+- Web Audio API
+- HTML5 Canvas
+
+## 📌 Notes
+This project was built as a learning experience to explore the Canvas API and real-time audio processing.
+
+🔗 Check out the project [here](https://saacostam.github.io/music-visualizer/)!
